@@ -1,15 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+neract-front/node_modules
+neract-front/.pnp
 .pnp.js
 
 # testing
-/coverage
+neract-front/coverage
 
 # production
-/build
+neract-front/build
+
+# build artifacts
+neract-back/bin
+neract-back/obj
 
 # misc
 .DS_Store
